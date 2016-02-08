@@ -1,0 +1,37 @@
+/* comentaio*/
+.main-nav{
+	color: blue;
+	background: gray;
+	padding-top: 27px;
+	margin-top: 13px;
+}
+
+.main-nav .navigation #logo{
+	background-image: url("../img/logo.png");
+	background-size: 50px;
+	background-repeat: no-repeat;
+
+    margin: 10px 20px 30px 40px;
+/*el c'odigo de arriba es lo mismo pero mas resumido que el de abajo*/
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left: 30px;
+    margin-bottom: 40px;
+    display: block;
+    width: 172px;
+    height: 172px;
+    text-indent: 0;
+    color: transparent;
+}
+.sub-nav, .main-links{
+	float: left;
+}
+.sub-nav li; .main-links li{
+	float: left;
+	list-style: none;
+	margin-right: 5px
+
+}
+.main-nav{
+	color: green;
+}
